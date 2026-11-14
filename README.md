@@ -1,118 +1,129 @@
-# Customer Shopping Behavior Dashboard | Excel Data Analytics Project
+# ABC Executive Summary & Profitability Analysis
+### End-to-End Data Analytics Project | Python • SQL • Excel
 
-## Project Overview
+## 📌 Project Overview
 
-The **Customer Shopping Behavior Dashboard** is an interactive business intelligence solution developed entirely using Microsoft Excel to analyse customer purchasing patterns, revenue distribution, product performance and customer demographics.
+This project focuses on analysing business sales performance and profitability by transforming raw business data into meaningful insights using Python, SQL (PostgreSQL), and Microsoft Excel.
 
-The project transforms raw shopping data into an executive-friendly dashboard, enabling stakeholders to explore customer behaviour, identify revenue-driving products, evaluate customer segments and understand purchasing preferences through interactive visualisations and filters.
+The objective was to evaluate key financial and operational metrics, understand revenue and profit trends, analyse geographical and sales channel performance, and develop an interactive executive dashboard to support data-driven business decisions.
 
-The primary objective is to convert customer and sales data into meaningful business insights that support data-driven decision-making.
+This end-to-end project demonstrates the practical application of data cleaning, preprocessing, exploratory data analysis, SQL-based business analysis, and interactive dashboard development.
 
-## Business Objectives
+## 🎯 Business Objectives
 
-This project focuses on answering key business questions:
+The analysis aims to answer key business questions:
 
-- How is revenue distributed across different customer segments?
-- How do subscribed and non-subscribed customers compare?
-- Which gender contributes the highest revenue?
-- Which products generate the most revenue?
-- Which product categories contribute most to overall sales?
-- Which age groups generate higher revenue?
-- How can customer behaviour be explored across different shipping and payment preferences?
+- What is the overall revenue and gross profit generated?
+- How does gross profit margin reflect business profitability?
+- How does revenue and profit performance change over time?
+- Which countries contribute the highest revenue?
+- Which sales channels generate the largest revenue contribution?
+- How does business performance vary across geographical regions?
+- Which product categories contribute to overall sales performance?
 
-## Key Performance Indicators (KPIs)
+## 🛠️ Tools & Technologies
 
-The dashboard presents four major performance indicators:
+| Technology | Application |
+|---|---|
+| Python (VS Code) | Data cleaning, preprocessing, validation and exploratory data analysis |
+| SQL (PostgreSQL) | Business analysis, data querying and performance analysis |
+| Microsoft Excel | Interactive dashboard development, KPI reporting and data visualization |
 
-| KPI | Value |
-|---|---:|
-| Total Customers | 3,900 |
-| Total Revenue | $233,081 |
-| Average Purchase Amount | $59.76 |
-| Average Review Rating | 3.75 |
+## 🔍 Project Workflow
 
-*Values reflect the dashboard screenshot and should be validated against the underlying workbook before publication.*
+### 1. Python – Data Preparation & EDA
 
-## Dashboard Analysis & Features
+- Loaded and explored the raw business dataset.
+- Performed data cleaning and preprocessing.
+- Validated data for analytical consistency.
+- Conducted exploratory data analysis (EDA).
+- Prepared data for further business analysis.
 
-### 1. Customer Distribution by Subscription Status
-Analyses the distribution of subscribed and non-subscribed customers to understand subscription adoption.
+### 2. SQL – Business Analysis
 
-### 2. Revenue by Gender
-Compares revenue contributions across male and female customers to identify differences in purchasing behaviour.
+Used PostgreSQL to perform business-focused analysis, including:
 
-### 3. Top 10 Products by Revenue
-Identifies the highest revenue-generating products, helping highlight important products driving business performance.
+- Revenue and gross profit analysis.
+- Sales performance analysis.
+- Geographical performance comparisons.
+- Product category analysis.
+- Sales channel performance analysis.
 
-### 4. Revenue by Product Category
-Evaluates revenue contributions across:
-- Clothing
-- Accessories
-- Footwear
-- Outerwear
+### 3. Excel – Executive Dashboard Development
 
-This analysis helps identify the strongest product categories.
+Developed an interactive executive dashboard to present business performance through KPIs, charts and visual comparisons.
 
-### 5. Revenue by Age Group
-Compares revenue across customer age segments:
-- Young Adult
-- Adult
-- Middle Aged
-- Senior
+## 📊 Key Performance Indicators
 
-This provides a demographic perspective on customer spending patterns.
+The executive dashboard tracks six major KPIs:
 
-## Interactive Dashboard Capabilities
+| KPI | Business Purpose |
+|---|---|
+| Total Revenue | Measures overall business revenue |
+| Total Gross Profit | Evaluates profit generated after COGS |
+| Gross Profit Margin | Measures profitability relative to revenue |
+| Total Units Sold | Tracks product sales volume |
+| Total Orders | Measures order volume |
+| Total COGS | Tracks cost of goods sold |
 
-The dashboard includes interactive Excel slicers to dynamically explore customer and sales performance.
+## 📈 Dashboard Features
 
-Available filters include:
+### 1. Executive KPI Overview
+Provides a consolidated snapshot of overall business and financial performance.
 
-- Subscription Status
-- Gender
+### 2. Monthly Revenue & Gross Profit Trends
+Visualises monthly revenue and profitability patterns to monitor business performance over time.
+
+### 3. Top 5 Countries by Revenue
+Highlights the leading geographical markets based on revenue contribution.
+
+### 4. Revenue by Sales Channel
+Compares revenue contribution across different sales channels:
+- Corporate
+- Marketplace
+- Online Store
+- Retail Partners
+
+### 5. Region-Wise Revenue Analysis
+Evaluates revenue distribution across geographical regions.
+
+### 6. Country-Wise Revenue Map
+Provides a geographical view of business revenue distribution across countries.
+
+## 🎛️ Interactive Dashboard Features
+
+The Excel dashboard includes interactive slicers for:
+
 - Product Category
-- Shipping Type
-- Payment Method
+- Country
+- Quarter
 
-These filters allow users to investigate different customer segments and understand how purchasing behaviour and revenue distribution change across selected dimensions.
+These filters enable users to dynamically explore business performance across different dimensions.
 
-## Tools & Technologies
+## 💡 Business Value
 
-- Microsoft Excel
-- PivotTables
-- PivotCharts
-- Interactive Slicers
-- KPI Development
-- Data Analysis
-- Data Visualization
-- Business Intelligence
-- Dashboard Design
+This project demonstrates how data analytics can support business stakeholders in:
 
-## Business Value & Potential Applications
-
-The dashboard provides a consolidated view of customer shopping behaviour and revenue performance.
-
-It can support business teams in:
-
-- Understanding customer segmentation and subscription adoption.
-- Identifying high-performing products and categories.
-- Evaluating revenue contribution across customer demographics.
-- Understanding customer purchasing preferences.
-- Exploring shipping and payment method patterns.
-- Supporting customer engagement and product strategy decisions.
+- Monitoring revenue and profitability.
+- Understanding cost and profit relationships.
+- Identifying high-performing geographical markets.
+- Evaluating sales channel contributions.
+- Comparing product category performance.
+- Tracking monthly business performance.
+- Supporting data-driven business decisions.
 
 
 
-## Project Outcome
+## 🚀 Project Outcome
 
-Developed an interactive Excel dashboard that consolidates customer, product and revenue metrics into a single reporting interface.
+Successfully developed an end-to-end business analytics solution combining Python-based data preparation, PostgreSQL-based business analysis, and an interactive Excel executive dashboard.
 
-The project demonstrates practical capabilities in Excel-based data analysis, customer behaviour analysis, financial reporting, data visualization and interactive business intelligence dashboard development.
+The project strengthened practical skills in data cleaning, exploratory data analysis, SQL querying, financial performance analysis, KPI reporting, and business intelligence.
 
 ---
 
-**Project Domain:** Retail Analytics | Customer Analytics | Business Intelligence
+**Project Domain:** Business Analytics | Financial Analysis | Sales Performance
 
-**Technology:** Microsoft Excel
+**Tools:** Python | PostgreSQL | Microsoft Excel
 
-**Project Type:** End-to-End Data Analytics & Interactive Dashboard Development
+**Project Type:** End-to-End Data Analytics
